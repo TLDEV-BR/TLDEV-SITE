@@ -9,7 +9,8 @@
 html{
     font-family: 'Zilla Slab', serif, system-ui, -apple-system;
 }
-.banner{
+
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,12 +21,15 @@ html{
     font-family: 'Zilla Slab', serif, system-ui, -apple-system;
     color: var(--banner-text);
 }
-.sentence{
-    font-size: 3rem;
+
+.sentence {
+    font-size: clamp(1rem, 3rem, 3.5rem);
     font-weight: 700;
     text-align: center;
 }
-.action-button{
+
+.action-button {
+    margin-left: -2%;
     background-color: transparent;
     border: 2px solid var(--banner-text);
     margin-top: 2rem;
@@ -33,66 +37,78 @@ html{
     font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
-	text-transform: uppercase;
+    text-transform: uppercase;
     color: var(--banner-text);
+    transition: 0.6s;
 }
-.action-button:hover{
+
+.action-button:hover {
     background-color: var(--banner-hover-action);
     color: var(--banner-bg-color);
+    transition: 0.6s;
 }
-.info-banner{
+
+.info-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     width: 80%;
     height: 10rem;
     margin: 2rem auto 2rem auto;
-
     background-color: var(--banner-bg-color);
     color: var(--banner-text);
-
     border-radius: 5px;
 }
-.sentence2{
+
+.sentence2 {
+    text-align: center;
     font-size: 1.5rem;
     font-family: 'Zilla Slab', serif;
     font-weight: 400;
 }
-.linkwhowe{
+
+.linkwhowe {
+    font-size: 1.2rem;
+    margin-top: 24px;
+    color: var(--banner-text);
+    transition: 0.5s;
+}
+
+.linkwhowe:hover {
     font-size: 1.2rem;
     margin-top: 24px;
     color: var(--banner-color-link);
+    transition: 0.5s;
 }
-.info-tldev{
+.info-tldev {
     display: flex;
     height: 20rem;
     width: 100%;
     flex-direction: column;
     align-items: center;
 }
-.info-title{
+.info-title {
     margin: 2rem;
 }
-.text-title{
+.text-title {
     font-size: x-large;
     font-weight: 500;
 }
-.division-box{
+.division-box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.box-info{
+.box-info {
     width: 30%;
     text-align: center;
     text-align: center;
 }
-.box-title{
+.box-title {
     font-weight: 500;
     margin: 1rem;
 }
-.box-content{
+.box-content {
     font-size: larger;
 }

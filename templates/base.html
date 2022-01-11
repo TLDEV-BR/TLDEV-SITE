@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive/index_response.css') }}">
     <title>TLDev</title>
     {% block head %}
     {% endblock %}
 </head>
 <body>
-    <div class = "nav">
-        <span class="logo">
-            <a href="/" class="text-logo">TLDEV</a>
-        </span>
-		<div class = "text-nav">
-			<a href="" class = "page">Quem somos</a>
-			<a href="" class = "page">O que fazemos</a>
-			<a href="" class = "page">O que você pode fazer</a>
-			<a href="" class = "page">Blog</a>
-		</div>
-	</div>
+    <nav>
+        <a class="logo" href="/">TLDEV</a>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="/hire">Contrate</a></li>
+            <li><a href="/about">Quem somos</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
     {% block body  %}
     {% endblock %}
 </body>
