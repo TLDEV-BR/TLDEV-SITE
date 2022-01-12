@@ -27,6 +27,7 @@ a:hover {
     font-size: 24px;
     letter-spacing: 2px;
     text-align: center;
+    padding: 4px;
 }
 
 nav {
@@ -36,15 +37,18 @@ nav {
     font-family: 'Zilla Slab', serif, system-ui, -apple-system;
     background: rgb(255, 255, 255);
     height: 8vh;
+    border-bottom: 1px solid #545454;
 }
 
 .nav-list {
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
     list-style: none;
     display: flex;
 }
 
 .nav-list li {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-left: 32px;
 }
 .nav-list.active {
