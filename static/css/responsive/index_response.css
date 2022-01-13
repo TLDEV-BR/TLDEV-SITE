@@ -84,15 +84,22 @@
         font-size: xx-small;
     }
     .sentence2 {
-        font-size: small;
-    }
-    .division-box {
-        font-size: x-small;
+        font-size: large;
     }
     .linkwhowe {
-        font-size: small;
+        font-size: large;
     }
-    .box-info {
-        width: 40%;
+    .division-box{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        font-size: larger;
     }
+    .box-info{
+        width: 90%;
+    }
+    .box-title{
+        font-size: larger;
+    }
+
 }

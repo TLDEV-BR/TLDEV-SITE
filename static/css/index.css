@@ -88,7 +88,7 @@ html{
     align-items: center;
 }
 .text-title {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: 500;
     margin: 2rem;
 }
@@ -102,10 +102,17 @@ html{
     text-align: center;
     text-align: center;
 }
+.box-info img {
+    width: 82px;
+    height: 82px;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
 .box-title {
     font-weight: 500;
     margin: 1rem;
 }
 .box-content {
     font-size: larger;
+    margin-bottom: 2rem;
 }
