@@ -79,12 +79,13 @@
         display: flex;
         margin-right: -100vh;
     }
-    .page {
-        margin-left: -70%;
-        font-size: xx-small;
+    .sentence{
+        font-size: 2rem;
+        margin: 6px;
     }
     .sentence2 {
         font-size: large;
+        margin: 10px;
     }
     .linkwhowe {
         font-size: large;
@@ -102,4 +103,13 @@
         font-size: larger;
     }
 
+    .bottom-nav{
+        flex-direction: column;
+        height: 20rem;
+        margin-top: 32rem;
+    }
+    .conventional-networks{
+        text-align: center;
+    }
+    
 }
