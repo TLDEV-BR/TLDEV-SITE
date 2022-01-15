@@ -5,80 +5,7 @@
     --nav-logo-color: #000;
 }
 
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-}
-
-.mobile-menu.active .line2 {
-    opacity: 0;
-}
-
-.mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
-}
-
 @media (max-width: 600px) {
-    html {
-        height: 100%;
-        bottom: 0;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    body {
-        height: 100%;
-        bottom: 0;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        overflow-x: hidden;
-    }
-    .logo {
-        font-size: 95%;
-        width: 20%;
-    }
-    .nav {
-        width: 4vw;
-        height: 6%;
-    }
-    .nav-list {
-        color: var(--nav-text-color);
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 100vw;
-        height: 92vh;
-        background: var(--nav-bg-color);
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-    }
-    .nav-list li {
-        margin-left: 0;
-        opacity: 0;
-    }
-    .mobile-menu {
-        display: block;
-    }
-    .text-logo {
-        font-size: 1rem;
-    }
-    .text-nav {
-        align-content: center;
-        display: flex;
-        margin-right: -100vh;
-    }
     .sentence{
         font-size: 2rem;
         margin: 6px;
@@ -111,5 +38,7 @@
     .conventional-networks{
         text-align: center;
     }
-    
+    .summary{
+        margin-top: 25rem;
+    }
 }

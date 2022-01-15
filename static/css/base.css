@@ -9,7 +9,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    overflow-x: hidden;
+}
 a {
     color: var(--nav-text-color);
     text-decoration: none;
@@ -75,6 +77,10 @@ nav {
     margin-top: 6rem;
     color: var(--nav-bg-color);
 }
+.logo-bottom{
+    background-color: #fff;
+    color: #000;
+}
 .conventional-networks{
     display: flex;
     flex-direction: column;
@@ -89,8 +95,4 @@ nav {
     color: var(--nav-bg-color);
     font-size: large;
     text-decoration: underline;
-}
-.logo-bottom{
-    background-color: #fff;
-    color: #000;
 }

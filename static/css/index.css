@@ -116,3 +116,10 @@ html{
     font-size: larger;
     margin-bottom: 2rem;
 }
+.summary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
