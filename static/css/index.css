@@ -33,7 +33,6 @@ html{
 }
 
 .action-button { 
-    background-color: transparent;
     border: 2px solid var(--banner-text);
     margin-top: 2rem;
     padding: 0.8rem;
@@ -47,7 +46,8 @@ html{
 
 .action-button:hover {
     background-color: var(--banner-hover-action);
-    color: var(--banner-bg-color);   
+    color: var(--banner-bg-color); 
+    opacity: 100%;  
 }
 
 .info-banner {
@@ -122,4 +122,21 @@ html{
     justify-content: center;
     flex-direction: column;
     margin-top: 6rem;
+
+}
+.button-blog{
+    border: 2px solid var(--banner-bg-color);
+    margin-top: 2rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--banner-bg-color);
+    transition: 0.6s;
+}
+.button-blog:hover{
+    background-color: var(--banner-bg-color);
+    color: var(--banner-text);  
+    opacity: 100%;
 }

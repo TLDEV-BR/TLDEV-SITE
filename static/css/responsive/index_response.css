@@ -33,12 +33,12 @@
     .bottom-nav{
         flex-direction: column;
         height: 20rem;
-        margin-top: 32rem;
+      
     }
     .conventional-networks{
         text-align: center;
     }
     .summary{
-        margin-top: 25rem;
+        margin-top: 30rem;
     }
 }
