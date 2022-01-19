@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive/base_response.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive/index_response.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/hire.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive/hire_response.css') }}">
     <title>TLDev</title>
-    {% block head %}
-    {% endblock %}
+    {% block head %} {% endblock %}
 </head>
+
 <body>
     <nav>
         <a class="logo" href="/">TLDEV</a>
@@ -27,8 +30,7 @@
         </ul>
     </nav>
 
-    {% block body  %}
-    {% endblock %}
+    {% block body %} {% endblock %}
 
     <div class="bottom-nav">
         <a class="logo logo-bottom" href="/">TLDEV</a>
@@ -45,4 +47,5 @@
         </div>
     </div>
 </body>
+
 </html>

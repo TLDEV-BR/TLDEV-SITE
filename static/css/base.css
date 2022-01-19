@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;700&display=swap');
-:root{
-	--nav-bg-color: #fff;
-	--nav-text-color: #000;
-	--nav-logo-color: #000;
+:root {
+    --nav-bg-color: #fff;
+    --nav-text-color: #000;
+    --nav-logo-color: #000;
 }
 
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
     overflow-x: hidden;
 }
+
 a {
     color: var(--nav-text-color);
     text-decoration: none;
@@ -53,13 +55,16 @@ nav {
     letter-spacing: 2px;
     margin-left: 32px;
 }
+
 .nav-list.active {
     transform: translateX(0);
 }
+
 .mobile-menu {
     display: none;
     cursor: pointer;
 }
+
 .mobile-menu div {
     width: 32px;
     height: 2px;
@@ -67,7 +72,8 @@ nav {
     margin: 8px;
     transition: 0.3s;
 }
-.bottom-nav{
+
+.bottom-nav {
     display: flex;
     flex-direction: row;
     height: 12rem;
@@ -77,21 +83,25 @@ nav {
     margin-top: 6rem;
     color: var(--nav-bg-color);
 }
-.logo-bottom{
+
+.logo-bottom {
     background-color: #fff;
     color: #000;
 }
-.conventional-networks{
+
+.conventional-networks {
     display: flex;
     flex-direction: column;
     align-items: left;
 }
-.contact{
+
+.contact {
     font-size: x-large;
     font-weight: 400;
     margin-bottom: 1rem;
 }
-.contact-forms{
+
+.contact-forms {
     color: var(--nav-bg-color);
     font-size: large;
     text-decoration: underline;

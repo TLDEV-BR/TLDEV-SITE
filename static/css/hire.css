@@ -1,0 +1,46 @@
+html,
+body,
+span,
+p,
+form,
+img,
+a,
+ul,
+ol,
+li,
+table,
+tr,
+td,
+div {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style-type: none;
+}
+
+html {
+    font-family: 'Zilla Slab', serif, system-ui, -apple-system;
+    display: flex;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-size: 1rem;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 0 auto;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.message {
+    font-size: 1.2rem;
+    color: black;
+}
