@@ -7,8 +7,8 @@
 
 ## Como rodar ?
 ```
-$ git clone https://github.com/tiago-xavier-braga/Site-Freelancer.git
-$ cd Site-Freelancer
+$ git https://github.com/TLDEV-BR/TLDEV-SITE.git
+$ cd TLDEV-SITE
 $ virtualenv venv
 $ source venv/bin/activate
 $ pip install requirements.txt
